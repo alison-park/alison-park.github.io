@@ -195,6 +195,10 @@ a:active{
     
 }
 
+.dillo-body{
+    font-size: 20px;
+    font-weight: lighter;
+}
 
 .genart-header{
     font-size: 140px;
@@ -224,10 +228,9 @@ a:active{
 }
 
 .genart-text{
-    font-size: 30px;
+    font-size: 20px;
     color:white;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;  
+    font-family: 'Courier New', Courier, monospace; 
     width: 40%;
     float: left; 
     padding-left: 50px;
@@ -243,3 +246,4 @@ a:active{
     padding: 10px;
     font-size: 20px;
 } 
+

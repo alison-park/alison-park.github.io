@@ -16,5 +16,3 @@ The website includes a photo of myself and a short bio of my interests.
 The website includes 2 projects that I have previously worked on, the Dillo Day App and my Generative Art.
 
 The website also links to a PDF of my Resume.
-
-
