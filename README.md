@@ -1,0 +1,1 @@
+This website was designed for CS_330: Human Computer Interaction as the course's final project.

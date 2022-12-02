@@ -1,1 +1,74 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link href="index.css" type="text/css" rel="stylesheet">
+<title>aly park</title>
+</head>  
+
+<body>
+
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="#aboutme">About Me</a>
+      <a href="#proj">Projects</a>
+      <a href="images/Alison Park Resume.pdf">Resume</a>
+    </div>
+  
+    <div class="main" >
+     
+        <div class="hi">
+            <h1 class="h1">Hi,</h1>
+            <p>My name is Alison. Welcome to my website!</p>
+            <div class="container-for-label">
+                <input type="submit" id="myBtn" value="Contact Information"></input>
+            </div>       
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+            <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="text-modal">
+                        <p>Contact Information </p>
+                        <p>Email: alisonpark2023@u.northwestern.edu </p>
+                        <p>Phone Number: 201-427-0802 </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="about-me" id="aboutme">
+            <h2 class="h2" >About Me,</h2>
+            <div class="aboutme-container">
+                <div class="aboutme-child">
+                    <img class="mypic" src="images/me.JPG" >
+                </div>
+                <div class="aboutme-child">
+                    <p>I'm currently a senior studying Computer Science at Northwestern University.
+                    In my free time I love listening to music and going to concerts. This is a photo of me at
+                    Pitchfork, which marked me officially having gone to more concerts than years alive.
+                    </p>
+                </div>
+            </div>
+           
+            
+        </div>
+
+        <div class="projects" id="proj">
+            <h1>Projects</h1>
+            <ul class="project-list">
+                <li><a href="dillo.html" class="dillo-link">Dillo App</a><li>
+                <li><a href="genart.html" class="gen-art-link">Generative Art</a><li>        
+            </ul>
+            
+        </div>
+
+     
+    </div>
+    <script src="main.js"></script>
+   
+    </body>
+    </html>
+    
