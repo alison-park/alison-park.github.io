@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
-  background-color: black;
+  background-color: rgb(30, 30, 30);
 }
 
 .hi_header{
