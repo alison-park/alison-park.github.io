@@ -10,25 +10,24 @@
 <body>
 
     <div class="topnav">
-      <a class="active" href="index.html">Home</a>
-      <a href="#aboutme">About Me</a>
-      <a href="#proj">Projects</a>
-      <a href="images/Alison Park Resume.pdf">Resume</a>
+      <a class="active" href="index.html" tabindex="1">Home</a>
+      <a href="#aboutme" tabindex="2">About Me</a>
+      <a href="#proj" tabindex="3">Projects</a>
+      <a href="images/Alison Park Resume.pdf" tabindex="4" alt="Button to PDF of Resume">Resume</a>
     </div>
   
     <div class="main" >
-     
         <div class="hi_header">
             <h1 class="h1">Hi,</h1>
             <p>My name is Alison. Welcome to my website!</p>
             <div class="container-for-label">
-                <input class="modal-button" type="submit" id="myBtn" value="Contact Information" alt="Button for Contact Information Modal"></input>
+                <input class="modal-button" type="submit" id="myBtn" value="Contact Information" alt="Button for Contact Information Modal" tabindex="5"></input>
             </div>       
             <!-- The Modal -->
             <div id="myModal" class="modal">
                 <div class="modal-content">
                    <!--<span class="close">&times;</span>--> 
-                    <button class="close">&times;</button>
+                    <button class="close" tabindex="6">&times;</button>
                     <div class="text-modal" alt="Contact Information Modal Contents">
                         <p>Contact Information </p>
                         <p>Email: alisonpark2023@u.northwestern.edu </p>
@@ -36,11 +35,10 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <div class="about-me" id="aboutme">
-            <h1 class="h1" >About Me,</h1>
+            <h1 class="h1" tabindex="7">About Me,</h1>
             <div class="aboutme-container">
                 <div class="aboutme-child">
                     <img class="mypic" src="images/me.JPG" alt="Photo of Alison Park">
@@ -52,21 +50,17 @@
                     </p>
                 </div>
             </div>
-           
-            
         </div>
 
         <div class="projects" id="proj">
-            <h1>Projects</h1>
+            <h1 tabindex="8">Projects</h1>
             <ul class="project-list">
                 <li><a href="dillo.html" class="dillo-link">Dillo App</a><li>
                 <li><a href="genart.html" class="gen-art-link">Generative Art</a><li>        
             </ul>
-            
         </div>
-
-     
     </div>
+
     <script src="main.js"></script>
    
     </body>
